@@ -1,0 +1,26 @@
+{
+  "name": "gpm-nodejs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple package manager for Node.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc-watch": "tsc -w"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Arturs Cvetkovs",
+    "email": "arturs.cvetkovs@galjente.eu"
+  },
+  "dependencies": {
+    "tar": "^7.4.3",
+    "yargs": "^17.7.2",
+    "winston": "^3.13.1",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.2",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.5.4"
+  }
+}
