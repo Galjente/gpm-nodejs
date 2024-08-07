@@ -24,7 +24,7 @@ interface PackageDependency {
 
 const NPM_REGISTRY: string = 'https://registry.npmjs.org';
 const PACKAGE_FILE_NAME: string = 'package.json';
-const NODE_MODULES_DIR_NAME: string = 'node_modules2';
+const NODE_MODULES_DIR_NAME: string = 'node_modules';
 const WORKING_DIRECTORY: string = process.cwd();
 const PACKAGE_JSON_PATH: string = path.join(WORKING_DIRECTORY, PACKAGE_FILE_NAME);
 const NODE_MODULES_PATH: string = path.join(WORKING_DIRECTORY, NODE_MODULES_DIR_NAME);
